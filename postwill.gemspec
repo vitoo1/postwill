@@ -2,7 +2,7 @@ $LOAD_PATH.push File.expand_path('../lib', __FILE__)
 require 'postwill/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'postwill'
+  spec.name          = 'postwill-jb'
   spec.version       = Postwill::VERSION
   spec.authors       = ['Kirill Shevchenko', 'Bezrukavyi Yaroslav']
   spec.email         = ['hello@kirillshevch.com', 'yaroslav.bezrukavyi@gmail.com']
@@ -21,7 +21,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'dry-configurable', '~> 0.7'
   spec.add_dependency 'dry-monads', '~> 0.3.1'
-  spec.add_dependency 'twitter', '~> 6.1.0'
+  spec.add_dependency 'twitter', '~> 6.2'
   spec.add_dependency 'koala', '~> 3.0.0'
   spec.add_dependency 'pinterest-api', '~> 0.4.0'
   spec.add_dependency 'instagram_upload', '~> 0.1.2'
