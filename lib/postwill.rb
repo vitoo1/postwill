@@ -1,13 +1,9 @@
-require 'bundler'
-require 'pry-byebug'
 require 'dry-configurable'
 require 'dry-monads'
 require 'twitter'
 require 'koala'
 require 'pinterest-api'
 require 'instagram_upload'
-
-Bundler.require(:default)
 
 require_relative 'postwill/settings'
 require_relative 'postwill/providers/base'
